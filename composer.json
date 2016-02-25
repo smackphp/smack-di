@@ -1,0 +1,19 @@
+{
+    "name": "smackphp/smack-di",
+    "description": "smackphp dependency injection package",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Daniel Heath",
+            "email": "daniel@smackphp.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Smack\\Di\\": "src/"
+        }
+    },
+    "require": {
+        "container-interop/container-interop": "1.1.*"
+    }
+}
